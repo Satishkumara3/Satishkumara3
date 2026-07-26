@@ -12,9 +12,9 @@
 
 ## 👨‍💻 About Me
 
-<table align="center" width="100%" border="0" style="background-color: transparent;">
+<table align="center" width="100%" border="0">
   <tr>
-    <td width="55%" style="border: none; background: transparent;">
+    <td width="55%">
       <ul style="list-style-type: none;">
         <li>🎓 <strong>B.Tech</strong> Computer Science Engineering Student</li>
         <li>🚀 Aspiring <strong>AI/ML Engineer</strong> & <strong>Backend Developer</strong></li>
@@ -26,7 +26,7 @@
         <li>🌟 <strong>Future Goals:</strong> Contribute to leading AI frameworks and build AGI accessible tools</li>
       </ul>
     </td>
-    <td width="45%" align="center" style="border: none; background: transparent;">
+    <td width="45%" align="center">
       <img src="https://github-readme-stats.vercel.app/api?username=Satishkumara3&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
     </td>
   </tr>
@@ -127,7 +127,7 @@
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Satishkumara3&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
   <br/><br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Satishkumara3&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Satishkumara3&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </div>
 
 <div align="center">
