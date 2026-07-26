@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 500" width="1500" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#312e81" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6d28d9" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#e879f9"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  
+  <rect width="1500" height="500" fill="url(#bg)" />
+  <circle cx="200" cy="150" r="300" fill="url(#glow)" />
+  <circle cx="1300" cy="400" r="400" fill="url(#glow)" opacity="0.6" />
+  
+  <!-- Neural Network Nodes -->
+  <g stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.2">
+    <!-- Lines -->
+    <line x1="800" y1="150" x2="950" y2="100"/>
+    <line x1="800" y1="150" x2="950" y2="250"/>
+    <line x1="950" y1="100" x2="1100" y2="120"/>
+    <line x1="950" y1="250" x2="1100" y2="120"/>
+    <line x1="950" y1="250" x2="1150" y2="350"/>
+    <line x1="800" y1="350" x2="950" y2="250"/>
+    <line x1="1100" y1="120" x2="1300" y2="180"/>
+    <line x1="1150" y1="350" x2="1300" y2="300"/>
+    <line x1="1150" y1="350" x2="1350" y2="450"/>
+    <line x1="1300" y1="300" x2="1450" y2="250"/>
+  </g>
+  <g fill="#38bdf8" filter="url(#shadow)">
+    <!-- Nodes -->
+    <circle cx="800" cy="150" r="6"/>
+    <circle cx="800" cy="350" r="6"/>
+    <circle cx="950" cy="100" r="8"/>
+    <circle cx="950" cy="250" r="10" fill="#e879f9"/>
+    <circle cx="1100" cy="120" r="7"/>
+    <circle cx="1150" cy="350" r="9"/>
+    <circle cx="1300" cy="180" r="6"/>
+    <circle cx="1300" cy="300" r="8"/>
+    <circle cx="1350" cy="450" r="5"/>
+    <circle cx="1450" cy="250" r="7"/>
+  </g>
+  
+  <g font-family="system-ui, -apple-system, sans-serif" filter="url(#shadow)">
+    <text x="100" y="220" font-size="72" font-weight="800" fill="#ffffff" letter-spacing="2">Hi, I'm Satish Kumar</text>
+    <text x="100" y="290" font-size="36" font-weight="600" fill="url(#textGrad)" letter-spacing="1">AI / ML Engineer &amp; Software Developer</text>
+    <text x="100" y="340" font-size="20" font-weight="400" fill="#94a3b8">Computer Vision • Generative AI • Java Developer</text>
+  </g>
+</svg>
